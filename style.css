@@ -1,0 +1,40 @@
+body{
+margin: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h2{
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997);
+  color: rgb(236, 255, 31);
+  font-size: 50px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.color-container{
+  background: orange;
+  width: 300px;
+  height: 150px;
+  color: white;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  border-radius: 20px;
+}
+
+button{
+  margin: 5px;
+  padding: 0px;
+  font-size: 14px;
+
+}
